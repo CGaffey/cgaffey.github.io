@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://ceoas.oregonstate.edu/directory/clare-gaffey'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg #optional fallback
   image_circular: false # crops the image to make it circular
   use_video: true
