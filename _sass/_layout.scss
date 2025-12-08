@@ -30,6 +30,35 @@ body.sticky-bottom-footer {
 .container {
   max-width: $max-content-width;
 }
+/* Banner-style profile video */
+.profile.profile-banner {
+  float: none !important;      /* stop the left/right float */
+  width: 100%;
+  margin: 0 0 1.5rem 0;        /* space below the banner */
+  text-align: center;          /* optional: center any text inside */
+}
+
+.profile.profile-banner .profile-video-wrapper {
+  width: 100%;
+  height: 260px;               /* adjust height to taste */
+  overflow: hidden;
+  border-radius: 8px;          /* match the site’s rounded corners */
+}
+
+.profile.profile-banner .profile-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;           /* crops nicely like a hero background */
+}
+
+/* Optional: tweak height on small screens */
+@media (max-width: 768px) {
+  .profile.profile-banner .profile-video-wrapper {
+    height: 180px;
+  }
+}
+
 .profile-video-wrapper {
   width: 100%;
   overflow: hidden;
