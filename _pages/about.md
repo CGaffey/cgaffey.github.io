@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="mt-5 mb-5">
+<div class="mt-15 mb-15">
 
 
 
