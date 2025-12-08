@@ -70,16 +70,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2.html";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-the-first-day-of-my-website-s-life",
+          title: 'The first day of my website’s life.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -145,7 +145,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Clare-Gaffey?ev=hdr_xprf/", "_blank");
+          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Clare-Gaffey/", "_blank");
         },
       },{
         id: 'social-scholar',
