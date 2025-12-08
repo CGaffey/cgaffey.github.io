@@ -25,7 +25,7 @@ profiles:
       <p>Visiting Assistant Professor</p>
       <p>Environmental Studies</p>
       <p>College of the Holy Cross</p>
-   - align: right
+  - align: right
     image: graduation.jpg
     content: about_graduated.md
     image_circular: false # crops the image to make it circular
@@ -33,7 +33,7 @@ profiles:
       <p>PhDone</p>
       <p>Graduate School of Geography</p>
       <p>Clark University</p>
-    - align: left
+  - align: left
     image: prof_pic.jpg
     content: about_clark.md
     image_circular: false # crops the image to make it circular
