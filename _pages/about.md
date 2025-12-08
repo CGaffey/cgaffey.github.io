@@ -27,7 +27,19 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Thank you for your patience while I grow this site.
+
+
+
+
+
+:sparkles:   Thank you for your patience while I grow this site.  sparkles:
+
+
+
+
+
+
+
 
 <div class="row about-gallery mt-4">
   <div class="col-md-4 col-sm-12 mb-3">
