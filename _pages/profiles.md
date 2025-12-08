@@ -19,7 +19,7 @@ profiles:
       <p>Oregon State University</p>
   - align: left
     image: holycross.jpg
-    content: about_einstein.md
+    content: about_holycross.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Visiting Assistant Professor</p>
@@ -27,7 +27,7 @@ profiles:
       <p>College of the Holy Cross</p>
    - align: right
     image: graduation.jpg
-    content: about_einstein.md
+    content: about_graduated.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhDone</p>
@@ -35,7 +35,7 @@ profiles:
       <p>Clark University</p>
     - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: about_clark.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Candidate & Research Assistant</p>
