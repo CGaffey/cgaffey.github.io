@@ -78,6 +78,11 @@ body.sticky-bottom-footer {
 .profile-multi .profile {
   max-width: 260px;        // width of the image/info column
 }
+.about-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 .profile-multi-content {
   overflow: hidden;        // clear the float
