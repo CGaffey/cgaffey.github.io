@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: NABOSice.jpg
-    content: Current position
+    content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Postdoctoral Scholar</p>
