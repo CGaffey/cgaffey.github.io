@@ -44,7 +44,7 @@ announcements:
       <img
         src="{{ site.baseurl }}/assets/img/action1.jpg"
         class="img-fluid z-depth-1 rounded"
-        alt=":camera: "Leonard Sussman"
+        alt=":camera: Leonard Sussman"
       >
       <figcaption>:camera: Leonard Sussman</figcaption>
     </figure>
