@@ -27,40 +27,49 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
+<div class="mt-5 mb-5">
 
 
 
-
-
-:sparkles:   Thank you for your patience while I grow this site.  sparkles:
-
+:sparkles:   Thank you for your patience while I grow this site.  :sparkles:
 
 
 
-
-
+</div>
 
 
 <div class="row about-gallery mt-4">
   <div class="col-md-4 col-sm-12 mb-3">
-    <img
-      src="{{ site.baseurl }}/assets/img/action1.jpg"
-      class="img-fluid z-depth-1 rounded"
-      alt="First image description"
-    >
+    <figure class="about-gallery-item">
+      <img
+        src="{{ site.baseurl }}/assets/img/action1.jpg"
+        class="img-fluid z-depth-1 rounded"
+        alt=":camera: "Leonard Sussman"
+      >
+      <figcaption>:camera: Leonard Sussman</figcaption>
+    </figure>
   </div>
+
   <div class="col-md-4 col-sm-12 mb-3">
-    <img
-      src="{{ site.baseurl }}/assets/img/action2.jpeg"
-      class="img-fluid z-depth-1 rounded"
-      alt="Second image description"
-    >
+    <figure class="about-gallery-item">
+      <img
+        src="{{ site.baseurl }}/assets/img/action2.jpeg"
+        class="img-fluid z-depth-1 rounded"
+        alt=":camera: Pete Shipton"
+      >
+      <figcaption>:camera: Pete Shipton</figcaption>
+    </figure>
   </div>
+
   <div class="col-md-4 col-sm-12 mb-3">
-    <img
-      src="{{ site.baseurl }}/assets/img/action3.jpg"
-      class="img-fluid z-depth-1 rounded"
-      alt="Third image description"
-    >
+    <figure class="about-gallery-item">
+      <img
+        src="{{ site.baseurl }}/assets/img/action3.jpg"
+        class="img-fluid z-depth-1 rounded"
+        alt=":camera: Seth Danielsonn"
+      >
+      <figcaption>:camera: Seth Danielsonn</figcaption>
+    </figure>
   </div>
 </div>
+
