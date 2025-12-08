@@ -80,9 +80,11 @@ body.sticky-bottom-footer {
 }
 .about-gallery img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 260px;      // tweak this number to taste
+  object-fit: cover;  // fills the box + crops edges if needed
+  display: block;
 }
+
 
 .profile-multi-content {
   overflow: hidden;        // clear the float
