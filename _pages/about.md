@@ -5,15 +5,13 @@ permalink: /
 subtitle: <a href='https://ceoas.oregonstate.edu/directory/clare-gaffey'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.jpg #optional fallback
-  image_circular: false # crops the image to make it circular
-  use_video: true
-  more_info: >
-    <p>Pancake ice, Arctic Ocean, September 23, 2025</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-  - align: right
+  -align: right
+   image: prof_pic.jpg #optional fallback
+   image_circular: false # crops the image to make it circular
+   use_video: true
+   more_info: >
+     <p>Pancake ice, Arctic Ocean, September 2025</p>
+  - align: left
     image: prof_pic.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
