@@ -37,24 +37,23 @@ Write your biography here… (your existing text)
 <div class="row about-gallery mt-4">
   <div class="col-md-4 col-sm-12 mb-3">
     <img
-      src="{{ '/assets/img/prof_pic.jp' | relative_url }}"
+      src="{{ site.baseurl }}/assets/img/prof_pic.jpg"
       class="img-fluid z-depth-1 rounded"
       alt="First image description"
     >
   </div>
   <div class="col-md-4 col-sm-12 mb-3">
     <img
-      src="{{ 'prof_pic.jp' | relative_url }}"
+      src="{{ site.baseurl }}/assets/img/prof_pic.jpg"
       class="img-fluid z-depth-1 rounded"
       alt="Second image description"
     >
   </div>
   <div class="col-md-4 col-sm-12 mb-3">
     <img
-      src="{{ 'assets/img/prof_pic.jp' | relative_url }}"
+      src="{{ site.baseurl }}/assets/img/prof_pic.jpg"
       class="img-fluid z-depth-1 rounded"
       alt="Third image description"
     >
   </div>
 </div>
-
