@@ -1,2 +1,2 @@
 Coursework in remote sensing and Earth system science,
-Research in Arctic phytoplankton phenology.
+research on Arctic phytoplankton phenology with the [Polar Science Research Laboratory](https://wordpress.clarku.edu/kfrey/).
