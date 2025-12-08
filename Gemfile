@@ -1,44 +1,38 @@
-{
-  "files": ["README.md"],
-  "imageSize": 100,
-  "commit": false,
-  "contributorsPerLine": 7,
-  "projectName": "al-folio",
-  "projectOwner": "alshedivat",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "badgeTemplate": "[core_contributors]: https://img.shields.io/badge/core_contributors-<%= contributors.length %>-orange.svg 'Number of core contributors'",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
-  "skipCi": true,
-  "contributors": [
-    {
-      "login": "alshedivat",
-      "name": "Maruan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2126561?v=4",
-      "profile": "http://maruan.alshedivat.com",
-      "contributions": ["design", "code"]
-    },
-    {
-      "login": "rohandebsarkar",
-      "name": "Rohan Deb Sarkar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50144004?v=4",
-      "profile": "http://rohandebsarkar.github.io",
-      "contributions": ["code"]
-    },
-    {
-      "login": "pourmand1376",
-      "name": "Amir Pourmand",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32064808?v=4",
-      "profile": "https://amirpourmand.ir",
-      "contributions": ["code"]
-    },
-    {
-      "login": "george-gca",
-      "name": "George",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31376482?v=4",
-      "profile": "https://george-gca.github.io/",
-      "contributions": ["code"]
-    }
-  ],
-  "commitConvention": "angular"
-}
+source 'https://rubygems.org'
+
+gem 'jekyll'
+
+# Core plugins that directly affect site building
+group :jekyll_plugins do
+    gem 'jekyll-archives-v2'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-feed'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
+    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    gem 'jekyll-toc'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+
+    gem 'classifier-reborn'  # used for content categorization during the build
+end
+
+# Gems for development or external data fetching (outside :jekyll_plugins)
+group :other_plugins do
+    gem 'css_parser'
+    gem 'feedjira'
+    gem 'httparty'
+    gem 'observer'       # used by jekyll-scholar
+    gem 'ostruct'        # used by jekyll-twitter-plugin
+    # gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    # gem 'webrick' -- should be already installed by jekyll
+end
