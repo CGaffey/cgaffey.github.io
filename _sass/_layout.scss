@@ -71,6 +71,33 @@ body.sticky-bottom-footer {
   display: block;
   object-fit: cover;
 }
+.profile-multi {
+  margin: 1.5rem 0;
+}
+
+.profile-multi .profile {
+  max-width: 260px;        // width of the image/info column
+}
+
+.profile-multi-content {
+  overflow: hidden;        // clear the float
+}
+
+/* Add some spacing depending on float side */
+.profile-multi .profile.float-left {
+  margin-right: 1.5rem;
+}
+
+.profile-multi .profile.float-right {
+  margin-left: 1.5rem;
+}
+
+/* Optional: style the divider */
+.profile-divider {
+  margin: 2rem 0 1rem;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
 
 // Profile
 .profile {
