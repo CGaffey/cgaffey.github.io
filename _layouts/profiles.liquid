@@ -34,45 +34,4 @@ layout: page
     {% endif %}
   </article>
 </div>
-    {% if page.profiles %}
-      {% for p in page.profiles %}
-        <hr class="profile-divider">
-
-        <div class="profile-multi clearfix">
-          <div class="profile float-{% if p.align == 'right' %}right{% else %}left{% endif %}">
-
-            {% if p.image %}
-              {% assign profile_image_path = p.image | prepend: 'assets/img/' %}
-              {% if p.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-              {% include figure.liquid
-                 loading="eager"
-                 path=profile_image_path
-                 class=profile_image_class
-                 sizes=sizes
-                 alt=p.image
-                 cache_bust=true
-              %}
-            {% endif %}
-
-            {% if p.more_info %}
-              <div class="more-info">{{ p.more_info }}</div>
-            {% endif %}
-          </div>
-
-          <div class="profile-multi-content">
-            {% if p.content %}
-              {% assign prof_page = site.pages | where: "name", p.content | first %}
-              {% if prof_page %}
-                {{ prof_page.content | markdownify }}
-              {% endif %}
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    {% endif %}
-
+   
