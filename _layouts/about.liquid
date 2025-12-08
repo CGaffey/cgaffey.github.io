@@ -16,64 +16,63 @@ layout: default
 
   <article>
     {% if page.profile %}
-  <div class="profile {% if page.profile.use_video %}profile-banner{% endif %} float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile {% if page.profile.use_video %}profile-banner{% endif %} float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.use_video %}
+          <div class="profile-video-wrapper">
+            <video
+              class="profile-video"
+              autoplay
+              muted
+              loop
+              playsinline
+            >
+              <source src="{{ '/assets/video/VerticalPancake2.mp4' | relative_url }}" type="video/mp4">
+              <!-- Fallback: show the image if video can't load -->
+              {% if page.profile.image %}
+                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+                {% if page.profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% endif %}
+                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=profile_image_path
+                  class=profile_image_class
+                  sizes=sizes
+                  alt=page.profile.image
+                  cache_bust=true
+                %}
+              {% endif %}
+            </video>
+          </div>
 
-
-    {% if page.profile.use_video %}
-      <div class="profile-video-wrapper">
-        <video
-          class="profile-video"
-          autoplay
-          muted
-          loop
-          playsinline
-        >
-          <source src="{{ '/assets/video/VerticalPancake2.mp4' | relative_url }}" type="video/mp4">
-          <!-- Fallback: show the image if video can't load -->
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-            {% include figure.liquid
-               loading="eager"
-               path=profile_image_path
-               class=profile_image_class
-               sizes=sizes
-               alt=page.profile.image
-               cache_bust=true
-            %}
+        {% elsif page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-        </video>
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=profile_image_path
+            class=profile_image_class
+            sizes=sizes
+            alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
       </div>
-
-    {% elsif page.profile.image %}
-      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-      {% if page.profile.image_circular %}
-        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-      {% else %}
-        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-      {% endif %}
-      {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-      {% include figure.liquid
-         loading="eager"
-         path=profile_image_path
-         class=profile_image_class
-         sizes=sizes
-         alt=page.profile.image
-         cache_bust=true
-      %}
     {% endif %}
-
-    {% if page.profile.more_info %}
-      <div class="more-info">{{ page.profile.more_info }}</div>
-    {% endif %}
-  </div>
-{% endif %}
-
 
     <div class="clearfix">{{ content }}</div>
 
