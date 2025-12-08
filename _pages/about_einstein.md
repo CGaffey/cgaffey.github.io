@@ -1,1 +1,1 @@
-Researching ocean life & physics with the [Gas Biogeochemistry lab](https://blogs.oregonstate.edu/oceangastracer/) and the [Seascape Ecology Lab](https://blogs.oregonstate.edu/mariakavanaugh/) at Oregon State University.
+Researching ocean life & physics with the [Gas Biogeochemistry Lab](https://blogs.oregonstate.edu/oceangastracer/) and the [Seascape Ecology Lab](https://blogs.oregonstate.edu/mariakavanaugh/) at Oregon State University.
