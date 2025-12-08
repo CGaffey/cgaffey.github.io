@@ -30,7 +30,7 @@ profiles:
     content: about_graduated.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhDone</p>
+      <p>PhDone!</p>
       <p>Graduate School of Geography</p>
       <p>Clark University</p>
   - align: left
