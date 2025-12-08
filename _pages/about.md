@@ -44,14 +44,14 @@ Write your biography here… (your existing text)
   </div>
   <div class="col-md-4 col-sm-12 mb-3">
     <img
-      src="{{ '/assets/img/prof_pic.jp' | relative_url }}"
+      src="{{ 'prof_pic.jp' | relative_url }}"
       class="img-fluid z-depth-1 rounded"
       alt="Second image description"
     >
   </div>
   <div class="col-md-4 col-sm-12 mb-3">
     <img
-      src="{{ '/assets/img/prof_pic.jp' | relative_url }}"
+      src="{{ 'assets/img/prof_pic.jp' | relative_url }}"
       class="img-fluid z-depth-1 rounded"
       alt="Third image description"
     >
