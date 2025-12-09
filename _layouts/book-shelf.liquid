@@ -34,10 +34,10 @@ layout: page
             {% if statuses contains status %}
               <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
             {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+              <figcaption class="uncategorized"></figcaption>
             {% endif %}
           {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            <figcaption class="uncategorized"></figcaption>
           {% endif %}
         </a>
       </figure>
