@@ -51,8 +51,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/poems/";
               },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
+            },{id: "books-arctic-dreams",
+          title: 'Arctic Dreams',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
