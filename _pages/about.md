@@ -46,7 +46,9 @@ announcements:
         class="img-fluid z-depth-1 rounded"
         alt=":camera: Leonard Sussman"
       >
-      <figcaption>:camera: Leonard Sussman</figcaption>
+      <figcaption>
+       <span class="emoji">📷</span>Leonard Sussman
+      </figcaption>
     </figure>
   </div>
 
@@ -57,7 +59,9 @@ announcements:
         class="img-fluid z-depth-1 rounded"
         alt=":camera: Pete Shipton"
       >
-      <figcaption>:camera: Pete Shipton</figcaption>
+      <figcaption>
+       <span class="emoji">📷</span>Pete Shipton
+      </figcaption>
     </figure>
   </div>
 
@@ -68,7 +72,9 @@ announcements:
         class="img-fluid z-depth-1 rounded"
         alt=":camera: Seth Danielsonn"
       >
-      <figcaption>:camera: Seth Danielsonn</figcaption>
+      <figcaption>
+       <span class="emoji">📷</span>Seth Danielson
+      </figcaption>
     </figure>
   </div>
 </div>
