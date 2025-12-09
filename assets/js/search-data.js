@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Please [follow this link](https://docs.google.com/document/d/1cyWt5EBMXck7jq40FzyXy0M3NzgFgz5EbCxEV7we0Tg/edit?tab=t.0) for my most up-to-date CV",
+          description: "Please [follow this link](https://docs.google.com/document/d/1cyWt5EBMXck7jq40FzyXy0M3NzgFgz5EbCxEV7we0Tg/edit?usp=sharing) for my most up-to-date CV.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -120,11 +120,18 @@ ninja.data = [{
           window.open("https://docs.google.com/document/d/1cyWt5EBMXck7jq40FzyXy0M3NzgFgz5EbCxEV7we0Tg/edit?tab=t.0", "_blank");
         },
       },{
-        id: 'social-instagram',
-        title: 'Instagram',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://instagram.com/therealcgaff", "_blank");
+          window.open("https://scholar.google.com/citations?user=Q9Liw-MAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/clare-gaffey-76403262", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -141,11 +148,11 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Clare-Gaffey/", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=Q9Liw-MAAAAJ", "_blank");
+          window.open("https://instagram.com/therealcgaff", "_blank");
         },
       },{
       id: 'light-theme',
