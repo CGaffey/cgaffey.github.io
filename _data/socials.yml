@@ -20,13 +20,13 @@ cv_pdf: https://docs.google.com/document/d/1cyWt5EBMXck7jq40FzyXy0M3NzgFgz5EbCxE
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 #inspirehep_id: 1010907 # Inspire HEP author ID
-instagram_id: therealcgaff # your instagram id
+scholar_userid: Q9Liw-MAAAAJ #qc6CJjYAAAAJ # your Google Scholar ID
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: clare-gaffey-76403262 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 orcid_id: 0000-0002-0649-9821 # your ORCID ID
@@ -36,7 +36,7 @@ orcid_id: 0000-0002-0649-9821 # your ORCID ID
 # quora_username: # your Quora username
 research_gate_profile: https://www.researchgate.net/profile/Clare-Gaffey # your profile on ResearchGate
 #rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: Q9Liw-MAAAAJ #qc6CJjYAAAAJ # your Google Scholar ID
+
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -56,3 +56,4 @@ scholar_userid: Q9Liw-MAAAAJ #qc6CJjYAAAAJ # your Google Scholar ID
  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   #title: Custom Social
   #url: https://www.alberteinstein.com/
+instagram_id: therealcgaff # your instagram id

@@ -26,13 +26,13 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-
-<div class="mt-20 mb-20">
+<br><br>
+<div class="mt-5 mb-5">
 
 :sparkles:   Thank you for your patience while I grow this site.  :sparkles:
 
 </div>
-
+<br><br>
 
 <div class="row about-gallery mt-4">
   <div class="col-md-4 col-sm-12 mb-3">
