@@ -7,6 +7,5 @@ nav: false
 ---
 
 Some by others, some by me
-<br><br><br><br>
-check back.
+
 
