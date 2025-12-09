@@ -51,7 +51,17 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/poems/";
               },
-            },{id: "books-arctic-dreams",
+            },{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/arcticanthology.html";
+            },},{id: "books-at-every-depth",
+          title: 'At Every Depth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ateverydepth.html";
+            },},{id: "books-arctic-dreams",
           title: 'Arctic Dreams',
           description: "",
           section: "Books",handler: () => {
