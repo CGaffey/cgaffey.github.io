@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Please [follow this link](https://docs.google.com/document/d/1cyWt5EBMXck7jq40FzyXy0M3NzgFgz5EbCxEV7we0Tg/edit?tab=t.0) for my most up-to-date CV",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -132,6 +132,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://instagram.com/therealcgaff", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-0649-9821", "_blank");
         },
       },{
         id: 'social-researchgate',
