@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Arctic: An Anthology
+title: Arctic An Anthology
 author: Elizabeth Kolbert
 cover: assets/img/book_covers/arcticananthology.jpg
 olid: OL26473874M # use Open Library ID to fetch cover (if no `cover` is provided)
