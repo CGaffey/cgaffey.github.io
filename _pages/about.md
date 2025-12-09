@@ -27,13 +27,9 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="mt-15 mb-15">
-
-
+<div class="mt-20 mb-20">
 
 :sparkles:   Thank you for your patience while I grow this site.  :sparkles:
-
-
 
 </div>
 
