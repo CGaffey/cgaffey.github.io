@@ -10,4 +10,4 @@ released: 1986
 stars: 5
 ---
 
-A timeless narrative on Arctic affairs, written in detailed, admiring prose.
+A timeless narrative on Arctic affairs, written in detailed, admiring prose by a person who truly saw it.
