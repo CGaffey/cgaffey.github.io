@@ -51,8 +51,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/poems/";
               },
-            },{id: "books-",
-          title: '',
+            },{id: "books-arctic-an-anthology",
+          title: 'Arctic An Anthology',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/arcticanthology.html";
