@@ -10,4 +10,4 @@ released: 2008
 stars: 5
 ---
 
-A sampling of writings on the Arctic, including fiction and nonfiction.
+A sample of various writings on the Arctic, largely historic including fiction and nonfiction. The chapter on Fridtjof Nansen is particularly interesting.
