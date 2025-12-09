@@ -43,7 +43,7 @@ announcements:
         alt=":camera: Leonard Sussman"
       >
       <figcaption>
-       <span class="emoji">📷</span>Leonard Sussman
+       <span class="emoji">📷</span> Leonard Sussman
       </figcaption>
     </figure>
   </div>
@@ -56,7 +56,7 @@ announcements:
         alt=":camera: Pete Shipton"
       >
       <figcaption>
-       <span class="emoji">📷</span>Pete Shipton
+       <span class="emoji">📷</span> Pete Shipton
       </figcaption>
     </figure>
   </div>
@@ -69,7 +69,7 @@ announcements:
         alt=":camera: Seth Danielsonn"
       >
       <figcaption>
-       <span class="emoji">📷</span>Seth Danielson
+       <span class="emoji">📷</span> Seth Danielson
       </figcaption>
     </figure>
   </div>

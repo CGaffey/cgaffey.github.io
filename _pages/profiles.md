@@ -38,7 +38,25 @@ profiles:
     content: about_clark.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhD Candidate & Research Assistant</p>
+      <p>Research Assistant</p>
+      <p>PhD Candidate</p>
       <p>Graduate School of Geography</p>
       <p>Clark University</p>
+      - align: right
+    image: speech.jpeg
+    content: about_speech.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Master's Student!</p>
+      <p>Department of Geography</p>
+      <p>SUNY Albany</p>
+  - align: left
+    image: uav.jpeg
+    content: about_ualbany.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Assistant</p>
+      <p>M.A., Department of Geography</p>
+      <p>B.S., Environmental Science</p>
+      <p>SUNY Albany</p>
 ---
