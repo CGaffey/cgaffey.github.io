@@ -34,7 +34,7 @@ I'm drawn to the Arctic for its beauty, remoteness, and a sense of pristine that
 <br><br>
 > This world is intricately stitched together, boys. Every thread we pull, we know not how it affects the design of things. We’re but children on this earth, pulling bolts out of the Ferris wheel, thinking ourselves to be gods.
 >
-> -- Arn Peeples, Clint Bentley, Train Dreams (2025)
+> -- Arn Peeples, Clint Bentley, *Train Dreams* (2025)
 
 <br><br>
 <div class="mt-5 mb-5">
