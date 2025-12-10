@@ -30,12 +30,7 @@ announcements:
 <div class="mt-5 mb-5">
 I'm drawn to the Arctic for its beauty, remoteness, and a sense of pristine that is hard to find. The Arctic Ocean feels far away from where most of us live, and in that way it seems relatively untouched as one of the last wild places on Earth. Unfortunately, the pristine nature of the Arctic is at risk in many ways. Contaminants like PFAS and heavy metals get transported to and concentrated in the Arctic, poisoning local ecosystems and people. Warming temperatures in the air and water melt sea ice, an essential component in our climate system. Permafrost soils that had been frozen for thousands of years are now thawing, leading to infrastructure collapse and the release of organic matter previously locked away in its frozen stores. These and other changes contribute to intensified pressure on the Arctic as we know it, or knew it, leading the system towards a transformed version. It's important that we see it.
 </div>
-<br><br>
-<div class="mt-5 mb-5">
 
-:sparkles:   Thank you for your patience while I grow this site.  :sparkles:
-
-</div>
 <br><br>
 > This world is intricately stitched together, boys. Every thread we pull, we know not how it affects the design of things. We’re but children on this earth, pulling bolts out of the Ferris wheel, thinking ourselves to be gods.
 >
