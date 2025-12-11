@@ -92,9 +92,9 @@ ninja.data = [{
           description: "(SAS ECRs)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-synoptic-arctic-survey-early-career-researchers",
-          title: 'Synoptic Arctic Survey Early Career Researchers',
-          description: "(SAS ECRs)",
+            },},{id: "projects-international-arctic-science-committee",
+          title: 'International Arctic Science Committee',
+          description: "Marine Working Group Fellow",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{id: "projects-project-5",
