@@ -24,26 +24,31 @@ Additional aspects of this research including identifying fall blooms and upscal
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    📷 Lee Cooper & Karen Frey
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/DSC_0305.JP" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/DSC_0305.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     📷 Shea Wyatt
 </div>
 
-Results from this work can be found in {% cite gaffey2022phytoplankton, gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
+Results from this work can be found in {% cite gaffey2022phytoplankton gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Kkathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-<div class="caption">
-   📷 Kathy Kuletz
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid
+       path="assets/img/KathyKuletz.jpg"
+       title="example image"
+       class="img-fluid rounded z-depth-1"
+       caption="📷 Kathy Kuletz"
+    %}
+  </div>
 </div>
+
 <!-- 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
