@@ -43,6 +43,23 @@ Results from this work can be found in {% cite gaffey2022phytoplankton gaffey202
         {% include figure.liquid loading="eager" path="assets/img/kathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="📷 Kathy Kuletz" %}
     </div>
 </div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    <video
+      class="img-fluid rounded z-depth-1"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="{{ site.baseurl }}/assets/video/swlsun.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+
 <!-- 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
