@@ -18,7 +18,7 @@ Additional aspects of this research including identifying fall blooms and upscal
         {% include figure.liquid loading="eager" path="assets/img/DSC_1016.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/DSC_1355.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/DSC_1893.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/DSC_0061.JPG" title="upscaling camera" class="img-fluid rounded z-depth-1" %}
@@ -40,18 +40,9 @@ Results from this work can be found in {% cite gaffey2022phytoplankton gaffey202
 
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <video
-      class="img-fluid rounded z-depth-1"
-      autoplay
-      muted
-      loop
-      playsinline
-    >
-      <source src="{{ site.baseurl }}/assets/video/swlsun.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/prof_pic 11.16.25 AM.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 
