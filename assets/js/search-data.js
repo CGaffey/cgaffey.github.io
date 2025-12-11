@@ -77,9 +77,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-first-day-of-my-website-s-life",
           title: 'The first day of my website’s life.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "coming soon",
+          section: "News",},{id: "projects-phytoplankton-phenology-in-the-pacific-arctic",
+          title: 'Phytoplankton phenology in the Pacific Arctic',
+          description: "Distributed Biological Observatory &amp; Synoptic Arctic Survey",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-project-2",
