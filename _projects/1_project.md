@@ -44,7 +44,9 @@ Results from this work can be found in {% cite gaffey2022phytoplankton gaffey202
         {% include figure.liquid loading="eager" path="assets/img/prof_pic 11.16.25 AM.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    📷 Leonard Sussman
+</div>
 
 <!-- 
 The code is simple.
