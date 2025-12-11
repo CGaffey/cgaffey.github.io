@@ -38,11 +38,6 @@ Additional aspects of this research including identifying fall blooms and upscal
 Results from this work can be found in {% cite gaffey2022phytoplankton gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 <br><br>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/kathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="📷 Kathy Kuletz" %}
-    </div>
-</div>
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
