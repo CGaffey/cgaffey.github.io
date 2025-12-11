@@ -35,13 +35,7 @@ I'm drawn to the Arctic for its beauty, remoteness, and a sense of pristine that
 >
 > -- Arn Peeples, Clint Bentley, *Train Dreams* (2025)
 
-<br><br>
-<div class="mt-5 mb-5">
 
-:sparkles:   Thank you for your patience while I grow this site.  :sparkles:
-
-</div>
-<br><br>
 
 <div class="row about-gallery mt-4">
   <div class="col-md-4 col-sm-12 mb-3">
