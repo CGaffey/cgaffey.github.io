@@ -28,7 +28,6 @@ Additional aspects of this research including identifying fall blooms and upscal
     📷 Lee Cooper & Karen Frey
 </div>
 
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/DSC_0305.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -41,15 +40,12 @@ Additional aspects of this research including identifying fall blooms and upscal
 Results from this work can be found in {% cite gaffey2022phytoplankton gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 
 
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/kathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="📷 Kathy Kuletz" %}
+        {% include figure.liquid loading="eager" path="assets/img/kathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" caption="📷 Kathy Kuletz" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid
