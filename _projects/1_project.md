@@ -9,7 +9,8 @@ related_publications: true
 ---
 
 My dissertation research focused on phytoplankton phenology based on satellite remote sensing and water samples. Phytoplankton pigments chlorophyll-*a* and pheophytin were used to observe shifts in bloom cycles in the summer and fall months in the Bering and Chukchi Seas. This work was funded by the National Science Foundation. 
-<br>
+<br><br>
+
 Additional aspects of this research including identifying fall blooms and upscaling water-column chlorophyll-*a* using nadir-viewing technologies were supported by the Edna Bailey Sussman Fund, Association of Polar Early Career Scientists, and the U.S. Geospatial Intelligence Foundation.
 
 <div class="row">
@@ -30,10 +31,7 @@ Additional aspects of this research including identifying fall blooms and upscal
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/DSC_0305.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    📷 Shea Wyatt
-</div>
+
 
 Results from this work can be found in {% cite gaffey2022phytoplankton gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 
@@ -41,7 +39,7 @@ Results from this work can be found in {% cite gaffey2022phytoplankton gaffey202
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid
-       path="assets/img/KathyKuletz.jpg"
+       path="assets/img/kathykuletz.jpg"
        title="example image"
        class="img-fluid rounded z-depth-1"
        caption="📷 Kathy Kuletz"
