@@ -28,14 +28,14 @@ Additional aspects of this research including identifying fall blooms and upscal
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SWL2019sunset.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/SWL2019.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     📷 Shea Wyatt
 </div>
 
-Results from this work can be found in {% cite gaffey2022phytoplankton %}{% cite gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
+Results from this work can be found in {% cite gaffey2022phytoplankton, gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 
 
 <div class="row justify-content-sm-center">
@@ -44,8 +44,6 @@ Results from this work can be found in {% cite gaffey2022phytoplankton %}{% cite
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/kathykuletz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 <div class="caption">
    📷 Kathy Kuletz
 </div>
