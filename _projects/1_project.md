@@ -35,7 +35,7 @@ Additional aspects of this research including identifying fall blooms and upscal
     📷 Shea Wyatt
 </div>
 
-Results from this work can be found in {% cite gaffey2022phytoplankton %}{% cite gaffey2025environmental}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
+Results from this work can be found in {% cite gaffey2022phytoplankton %}{% cite gaffey2025environmental %}. Data sets collected can be found at the [Arctic Data Center](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2TB0XX3S).
 
 
 <div class="row justify-content-sm-center">
