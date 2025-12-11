@@ -82,9 +82,9 @@ ninja.data = [{
           description: "Distributed Biological Observatory &amp; Synoptic Arctic Survey",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-seascapes",
+          title: 'Seascapes',
+          description: "Simons Collaboration on Ocean Processes and Ecology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-synoptic-arctic-survey-early-career-researchers",
