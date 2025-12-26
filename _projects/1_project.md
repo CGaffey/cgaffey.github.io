@@ -2,7 +2,7 @@
 layout: page
 title: Phytoplankton phenology in the Pacific Arctic
 description: Distributed Biological Observatory & Synoptic Arctic Survey
-img: assets/img/celebrate.png
+img: assets/img/sasch3.jpg
 importance: 1
 category: research
 related_publications: true
