@@ -37,4 +37,4 @@ https://scope.soest.hawaii.edu/data/gradients/gradients.html
 Above is a simulation of Ecological Provinces from the <a href='https://darwinproject.mit.edu/>Darwin model</a>. The colors represent distinct combinations of dominant phytoplankton function types, with relative concentrations of biomass indicated by color brightness.
 
 
-{% endraw %}
+
