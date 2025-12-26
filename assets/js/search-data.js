@@ -84,7 +84,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-seascapes",
           title: 'Seascapes',
-          description: "Simons Collaboration on Ocean Processes and Ecology",
+          description: "Simons Collaboration on Ocean Processes and Ecology (SCOPE-Gradients)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-synoptic-arctic-survey-early-career-researchers",
