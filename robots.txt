@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://claregaffey.github.io/sitemap.xml
+Sitemap: https://cgaffey.github.io/sitemap.xml
