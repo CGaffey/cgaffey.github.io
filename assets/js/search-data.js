@@ -89,7 +89,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-synoptic-arctic-survey-early-career-researchers",
           title: 'Synoptic Arctic Survey Early Career Researchers',
-          description: "(SAS ECRs)",
+          description: "Chair of the SAS ECRs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-international-arctic-science-committee",
@@ -97,9 +97,9 @@ ninja.data = [{
           description: "Marine Working Group Fellow",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-polar-steam",
+          title: 'Polar STEAM',
+          description: "Researcher Fellow",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-project-6",
