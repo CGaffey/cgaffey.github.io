@@ -10,4 +10,4 @@ released: 2020
 stars: 4
 ---
 
-A collection of essays from women confronting environmental damage on many fronts. The book offers diverse perspectives offered through practical, creative, angry, hopeful, scientific, and provocative lenses. My favorite chapters were contributed by Janine Benyus and Emily Atkin.
+A collection of essays from women confronting environmental damage on many fronts. This book offers diverse perspectives offered through practical, creative, empowering, scientific, and provocative lenses. My favorite chapters were contributed by Janine Benyus and Emily Atkin.
