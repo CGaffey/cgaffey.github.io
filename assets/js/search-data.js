@@ -51,7 +51,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/poems/";
               },
-            },{id: "books-arctic-an-anthology",
+            },{id: "books-all-we-can-save",
+          title: 'All We Can Save',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/allwecansave.html";
+            },},{id: "books-arctic-an-anthology",
           title: 'Arctic An Anthology',
           description: "",
           section: "Books",handler: () => {
