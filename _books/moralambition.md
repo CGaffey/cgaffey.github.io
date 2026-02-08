@@ -10,6 +10,6 @@ released: 2025
 stars: 5
 ---
 
-For me, the spirit of this book centers on Jane Goodall's quote that "You cannot get through a single day without having an impact on the world around you. What you do makes a difference — decide what kind of difference you want to make."
+For me, the spirit of this book centers on Jane Goodall's quote that "you cannot get through a single day without having an impact on the world around you. What you do makes a difference — decide what kind of difference you want to make."
 <br>
-While we all routinely witness injustice, our ability to effect change in them consistently feels out of reach. This book is a mental remedy for that feeling of helplessness and directs readers to think about what matters to them, and how to use their individual circumstances and talents to make meaningful change. If you read just one of the books listed here, I hope it is this one.
+While we all routinely witness injustice, our ability to effect change in them consistently feels out of reach. This book is a remedy for that feeling of helplessness and directs readers to think about what matters to them and how to use their individual circumstances and talents to make meaningful change. The author argues for researching problems to apply yourself to rather than starting with what you are familiar with. Either way, I think everyone could find something useful in the guidance offered herein.
