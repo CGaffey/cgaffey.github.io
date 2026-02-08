@@ -66,6 +66,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ateverydepth.html";
+            },},{id: "books-moral-ambition",
+          title: 'Moral Ambition',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/moralambition.html";
             },},{id: "books-arctic-dreams",
           title: 'Arctic Dreams',
           description: "",
