@@ -1,1 +1,1 @@
-Awarded the doctorate in August, 2025!
+Awarded the doctorate in August, 2024!
